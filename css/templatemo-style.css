@@ -209,7 +209,7 @@ body {
   }
   
   figure.effect-bubba:hover img {
-	  opacity: 0.4;
+	  opacity: 0;
   }
   
   figure.effect-bubba figcaption::before,
