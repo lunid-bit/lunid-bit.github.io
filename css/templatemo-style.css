@@ -30,7 +30,7 @@ p {
 }
 
 .tm-secondary-color {
-  color: #0099CC;
+  color: #cc0000;
 }
 
 
@@ -46,7 +46,7 @@ p {
 
 .tm-content-container {      
   border-radius: 20px;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
 }
 
 .tm-nav {
@@ -68,7 +68,7 @@ p {
 .tm-nav > ul > li.active > a,
 .tm-nav > ul > li > a:hover,
 .tm-nav > ul > li > a:focus {
-  color: #0299CC;
+  color: #cc0202;
 }
 
 .tm-nav-deco {
@@ -83,7 +83,7 @@ p {
 .tm-nav > ul > li.active > a > .tm-nav-deco,
 .tm-nav > ul > li:hover > a > .tm-nav-deco
  {
-  background-color: #0299CC;
+  background-color: #cc0202;
 }
 
 .tm-content {  
