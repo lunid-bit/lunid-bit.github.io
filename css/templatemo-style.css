@@ -200,7 +200,7 @@ body {
   /***** Bubba *****/
   /*---------------*/
   
-  figure.effect-bubba {	background: #fafafa00; }
+  figure.effect-bubba {	background: #00000000; }
   
   figure.effect-bubba img {
 	  opacity: 1;
