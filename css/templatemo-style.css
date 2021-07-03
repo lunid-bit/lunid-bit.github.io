@@ -58,7 +58,7 @@ body {
   }
   
   .tm-nav {
-	position: fixed;
+	position: absolute;
 	right: -150px;
 	top: 45px;
   }
