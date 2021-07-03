@@ -9,7 +9,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   background-color: black;
-  color: #000000;
+  color: #ffffff;
 }
 
 a {
@@ -132,7 +132,7 @@ footer {
 	position: relative;	
 	overflow: hidden;
 	margin-bottom: 0;
-	background: #3085a3;
+	background: #a33030;
 	text-align: center;
 	cursor: pointer;
 }
