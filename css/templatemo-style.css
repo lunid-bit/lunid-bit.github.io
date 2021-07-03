@@ -46,11 +46,11 @@ body {
   
   .tm-content-container {      
 	border-radius: 5px;
-	background-color: white;
+	background-color: rgb(63, 63, 63);
   }
 
   .tm-content-container iframe {
-	position: relative;
+	position: center;
 	border-radius: 5px;
   }
   
@@ -111,8 +111,7 @@ body {
   }
   
   .tm-img {
-	border-top-left-radius: 20px;
-	border-top-right-radius: 20px;  
+	border-radius: 5px; 
   }
   
   footer {
