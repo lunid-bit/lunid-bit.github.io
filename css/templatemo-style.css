@@ -6,7 +6,7 @@
 	background-color: #262729;
 	color: #e2e2e2
   }
-  
+
   body {
 	-ms-overflow-style: none; /* for Internet Explorer, Edge */
 	scrollbar-width: none; /* for Firefox */
@@ -67,9 +67,10 @@
   }
   
   .tm-nav {
-	position: absolute;
-	right: -150px;
-	top: 45px;
+	position: fixed;
+	z-index: 1; /* Stay on top */
+	top: 0; /* Stay at the top */
+	left: 0;
   }
   
   .tm-nav > ul > li {
