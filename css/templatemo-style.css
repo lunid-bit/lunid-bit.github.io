@@ -68,9 +68,9 @@
   
   .tm-nav {
 	position: fixed;
-	z-index: 1; /* Stay on top */
-	top: 0; /* Stay at the top */
-	left: 0;
+	z-index: 50%; /* Stay on top */
+	top: 50%; /* Stay at the top */
+	right: 0;
   }
   
   .tm-nav > ul > li {
