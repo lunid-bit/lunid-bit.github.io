@@ -9,7 +9,7 @@ body {
 	font-weight: 400;
 	overflow-x: hidden;
 	background-color: #262729;
-	color: #999A9B
+	color: #e2e2e2
   }
   
   a {
@@ -26,7 +26,7 @@ body {
   }
   
   .tm-primary-color {
-	color: #61AEAE;
+	color: #0f6874;
   }
   
   .tm-secondary-color {
@@ -47,8 +47,8 @@ body {
   .tm-content-container {      
 	border-radius: 5px;
 	background-color: #1e1f20;
-	outline-width: 1px;
-	outline-color: black;
+	outline: black;
+	outline-width: 2px;
   }
 
   .tm-content-container iframe {
@@ -69,7 +69,7 @@ body {
   .tm-nav > ul > li > a {
 	display: block;
 	padding: 12px 15px;
-	color: #999A9B;
+	color: #e2e2e2;
   }
   
   .tm-nav > ul > li.active > a,
@@ -82,7 +82,7 @@ body {
 	display: inline-block;
 	width: 20px;
 	height: 8px;
-	background-color: #999A9B;
+	background-color: #e2e2e2;
 	vertical-align: middle;
 	margin-right: 20px;
   }
@@ -103,13 +103,13 @@ body {
   
   .tm-title {
 	font-size: 2rem;
-	color: #999A9B;
+	color: #e2e2e2;
   }
   
   .tm-page-title {
 	font-size: 1.5rem;
 	margin-bottom: 40px;
-	color: #999A9B;
+	color: #e2e2e2;
   }
   
   .tm-img {
@@ -121,11 +121,11 @@ body {
 	display: flex;
 	justify-content: space-between;
 	padding-bottom: 50px;
-	color: #9A9B9C;
+	color: #e2e2e2;
   }
   
   .tm-footer-link {
-	color: #9A9B9C;
+	color: #e2e2e2;
   }
   
   /* 
