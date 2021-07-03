@@ -1,7 +1,4 @@
    body {
-	animation: fadeInAnimation ease 2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
 	font-family: "Open Sans", Arial, Helvetica, sans-serif;
 	font-size: 18px;
 	font-weight: 400;
@@ -9,15 +6,6 @@
 	background-color: #262729;
 	color: #e2e2e2
   }
-
-  @keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-     }
-   }
   
   a {
 	transition: all 0.3s ease;
@@ -51,7 +39,11 @@
 	position: relative;
   }
   
-  .tm-content-container {      
+  .tm-content-container {   
+	animation: fadeInAnimation ease 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
 	border-radius: 5px;
 	background-color: #1e1f20;
 	box-shadow: 0 0 0 1px black;
@@ -368,6 +360,15 @@
   .tm-small {
 	  font-size: 90%;
   }
+
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+   }
   
   @media (max-width: 945px) {
 	.tm-nav {
