@@ -47,8 +47,8 @@ body {
   .tm-content-container {      
 	border-radius: 5px;
 	background-color: #1e1f20;
-	outline: black;
-	outline-width: 2px;
+	border-color: black;
+	border-width: 1px;
   }
 
   .tm-content-container iframe {
